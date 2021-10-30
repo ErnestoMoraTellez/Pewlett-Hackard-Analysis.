@@ -65,4 +65,4 @@ CREATE TABLE titles (
 );
 
 --Select full table
-SELECT * FROM departments;
+SELECT * FROM titles;
