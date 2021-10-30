@@ -1,3 +1,11 @@
+--Dropping tables
+DROP TABLE employees CASCADE;
+DROP TABLE departments CASCADE;
+DROP TABLE dept_emp CASCADE;
+DROP TABLE dept_manager CASCADE;
+DROP TABLE salaries CASCADE;
+DROP TABLE titles CASCADE;
+
 -- Creating tables for PH-EmployeeDB
 CREATE TABLE departments (
      dept_no VARCHAR(4) NOT NULL,
@@ -56,4 +64,5 @@ CREATE TABLE titles (
  	PRIMARY KEY (emp_no,title,from_date)
 );
 
+--Select full table
 SELECT * FROM departments;
